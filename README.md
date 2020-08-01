@@ -1,6 +1,8 @@
 # react-native-use-modal-hooks
 [![](https://img.shields.io/npm/v/react-native-use-modal-hooks.svg)](https://www.npmjs.com/package/react-native-use-modal-hooks)
-[![](https://img.shields.io/npm/dt/react-native-use-modal-hooks.svg)](https://www.npmjs.com/package/react-native-use-modal-hooks)
+[![](https://img.shields.io/travis/toshi1127/react-native-modal-hooks.svg)](https://travis-ci.com/toshi1127/react-native-modal-hooks.svg?branch=master)
+[![Build Status](https://travis-ci.com/toshi1127/react-native-modal-hooks.svg?branch=master)](https://travis-ci.com/toshi1127/react-native-modal-hooks)
+[![codecov](https://codecov.io/gh/toshi1127/react-native-use-modal-hooks/branch/master/graph/badge.svg)](https://codecov.io/gh/toshi1127/react-native-use-modal-hooks)
 
 React hooks for displaying a modal window in React Native.
 This library does not provide any UI, but instead offers a convenient way to render modal components defined elsewhere.
