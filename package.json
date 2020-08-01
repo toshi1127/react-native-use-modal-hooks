@@ -1,7 +1,7 @@
 {
   "name": "react-native-use-modal-hooks",
   "description": "React hooks for displaying a modal window in React Native",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
