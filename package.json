@@ -10,6 +10,7 @@
     "test": "jest",
     "prepare": "yarn build"
   },
+  "repository": "https://github.com/toshi1127/react-native-use-modal-hooks",
   "author": "toshi1127 (https://github.com/toshi1127)",
   "keywords": [
     "react-native",
