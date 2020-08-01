@@ -1,0 +1,44 @@
+{
+  "name": "react-native-use-modal-hooks",
+  "description": "React hooks for displaying a modal window in React Native",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "test": "jest",
+    "prepare": "yarn build"
+  },
+  "author": "toshi1127 (https://github.com/toshi1127)",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "modal",
+    "hooks"
+  ],
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^10.4.7",
+    "@types/jest": "^26.0.8",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-native": "^0.63.1",
+    "jest": "^26.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "^0.63.1",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  }
+}
