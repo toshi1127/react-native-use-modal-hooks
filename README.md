@@ -11,17 +11,38 @@ For a simple modal component check out react-modal, which works well with this l
 ref: [react-modal-hook](https://github.com/mpontus/react-modal-hook)
 
 ## Demo
-![demo](https://user-images.githubusercontent.com/32378535/89108919-b28cf380-d477-11ea-8596-8b05f3988aa6.gif)
+![demo](https://user-images.githubusercontent.com/32378535/89127880-46b89280-d52c-11ea-92fb-52c650f6d1c3.gif)
 
 ## How to install
 `npm install react-native-use-modal-hooks` or `yarn add react-native-use-modal-hooks`
 
 ## How to use
 
+- Use ModalProvider to provide modal context for your application:
+
+```
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native';
+import { ModalProvider } from "react-native-use-modal-hooks";
+
+const App: React.FC = () => {
+  return (
+    <ModalProvider>
+      <NavigationContainer>
+        {/* Screen configuration */}
+      </NavigationContainer>
+    </ModalProvider>
+  )
+}
+
+export default App
+```
+
+- Call useModal with the dialog component of your choice.
 ```
 import React from 'react'
 import { View, Text, StyleSheet, Modal, TouchableHighlight, Button } from 'react-native'
-import { useModal } from '../src';
+import { useModal } from 'react-native-use-modal-hooks';
 
 const styles = StyleSheet.create({
   centeredView: {
