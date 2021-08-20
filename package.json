@@ -28,7 +28,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "10.4.7",
-    "@types/jest": "26.0.24",
+    "@types/jest": "27.0.1",
     "@types/react": "17.0.16",
     "@types/react-dom": "17.0.9",
     "@types/react-native": "0.64.12",
